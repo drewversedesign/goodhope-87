@@ -4,9 +4,9 @@ export const createOrganizationStructuredData = () => ({
   '@type': ['Organization', 'NGO', 'EducationalOrganization'],
   name: 'Good Hope Ministries',
   alternateName: 'Kaweesa Children\'s Ministry',
-  url: 'https://kaweesachildrensministry.org',
-  logo: 'https://kaweesachildrensministry.org/social-share-image.jpg',
-  image: 'https://kaweesachildrensministry.org/social-share-image.jpg',
+  url: 'https://goodhopeministries.netlify.app',
+  logo: 'https://goodhopeministries.netlify.app/social-share-image.jpg',
+  image: 'https://goodhopeministries.netlify.app/social-share-image.jpg',
   description: 'Good Hope Ministries is a registered NGO in Uganda transforming children\'s lives through education, healthcare, protection, and community development programs in Kampala and surrounding areas.',
   slogan: 'Transforming Lives Through Love and Care',
   contactPoint: [
@@ -107,18 +107,18 @@ export const createBlogPostStructuredData = (
   author: {
     '@type': 'Organization',
     name: author || 'Good Hope Ministries',
-    url: 'https://kaweesachildrensministry.org'
+    url: 'https://goodhopeministries.netlify.app'
   },
   publisher: {
     '@type': 'Organization',
     name: 'Good Hope Ministries',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://kaweesachildrensministry.org/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
+      url: 'https://goodhopeministries.netlify.app/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png',
       width: 512,
       height: 512
     },
-    url: 'https://kaweesachildrensministry.org'
+    url: 'https://goodhopeministries.netlify.app'
   },
   description: description,
   keywords: keywords.join(', '),

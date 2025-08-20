@@ -1,7 +1,7 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://kaweesachildrensministry.org/sitemap.xml
+Sitemap: https://goodhopeministries.netlify.app/sitemap.xml
 
 # Sitemap location
 Sitemap: https://wrlds.com/sitemap.xml

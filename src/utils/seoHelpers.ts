@@ -1,5 +1,5 @@
 
-export const createAbsoluteUrl = (path: string, baseUrl: string = 'https://kaweesachildrensministry.org'): string => {
+export const createAbsoluteUrl = (path: string, baseUrl: string = 'https://goodhopeministries.netlify.app'): string => {
   return path.startsWith('http') ? path : `${baseUrl}${path}`;
 };
 
@@ -132,8 +132,8 @@ export const getPageRegion = (pathname: string): string => {
 };
 
 export const createHreflangTags = (pathname: string) => [
-  { lang: 'en', href: `https://kaweesachildrensministry.org${pathname}` },
-  { lang: 'x-default', href: `https://kaweesachildrensministry.org${pathname}` }
+  { lang: 'en', href: `https://goodhopeministries.netlify.app${pathname}` },
+  { lang: 'x-default', href: `https://goodhopeministries.netlify.app${pathname}` }
 ];
 
 export const generateLocalSEOTags = (location: string, service: string) => ({
@@ -150,7 +150,7 @@ export const generateLocalSEOTags = (location: string, service: string) => ({
   'DC.date': new Date().toISOString().split('T')[0],
   'DC.type': 'Text',
   'DC.format': 'text/html',
-  'DC.identifier': `https://kaweesachildrensministry.org`,
+  'DC.identifier': `https://goodhopeministries.netlify.app`,
   'DC.language': 'en',
   'DC.coverage': location,
   'DC.rights': 'Copyright Good Hope Ministries'

@@ -1,13 +1,13 @@
 export const createLocalBusinessStructuredData = () => ({
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://kaweesachildrensministry.org/#organization',
+  '@id': 'https://goodhopeministries.netlify.app/#organization',
   name: 'Good Hope Ministries',
   alternateName: 'Kaweesa Children\'s Ministry',
   description: 'Leading children\'s ministry and NGO in Kampala, Uganda providing education, healthcare, and community development services',
-  url: 'https://kaweesachildrensministry.org',
-  image: 'https://kaweesachildrensministry.org/social-share-image.jpg',
-  logo: 'https://kaweesachildrensministry.org/social-share-image.jpg',
+  url: 'https://goodhopeministries.netlify.app',
+  image: 'https://goodhopeministries.netlify.app/social-share-image.jpg',
+  logo: 'https://goodhopeministries.netlify.app/social-share-image.jpg',
   telephone: '+256-XXX-XXXXXX',
   email: 'goodhopeministries113@gmail.com',
   address: {
@@ -89,19 +89,19 @@ export const createLocalBusinessStructuredData = () => ({
 export const createWebsiteStructuredData = () => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  '@id': 'https://kaweesachildrensministry.org/#website',
-  url: 'https://kaweesachildrensministry.org',
+  '@id': 'https://goodhopeministries.netlify.app/#website',
+  url: 'https://goodhopeministries.netlify.app',
   name: 'Good Hope Ministries - Children\'s Ministry Uganda',
   description: 'Official website of Good Hope Ministries, a leading children\'s NGO in Kampala, Uganda',
   publisher: {
-    '@id': 'https://kaweesachildrensministry.org/#organization'
+    '@id': 'https://goodhopeministries.netlify.app/#organization'
   },
   inLanguage: 'en-US',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://kaweesachildrensministry.org/search?q={search_term_string}'
+      urlTemplate: 'https://goodhopeministries.netlify.app/search?q={search_term_string}'
     },
     'query-input': 'required name=search_term_string'
   }

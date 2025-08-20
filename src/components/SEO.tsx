@@ -58,13 +58,13 @@ const SEO: React.FC<SEOProps> = ({
   
   // Breadcrumb data
   const breadcrumbItems = [
-    { name: 'Home', url: 'https://kaweesachildrensministry.org' }
+    { name: 'Home', url: 'https://goodhopeministries.netlify.app' }
   ];
   
   if (location.pathname !== '/') {
     const pathSegments = location.pathname.split('/').filter(Boolean);
     pathSegments.forEach((segment, index) => {
-      const url = 'https://kaweesachildrensministry.org/' + pathSegments.slice(0, index + 1).join('/');
+      const url = 'https://goodhopeministries.netlify.app/' + pathSegments.slice(0, index + 1).join('/');
       const name = segment.charAt(0).toUpperCase() + segment.slice(1).replace(/-/g, ' ');
       breadcrumbItems.push({ name, url });
     });
@@ -145,7 +145,7 @@ const SEO: React.FC<SEOProps> = ({
       {isBlogPost && category && <meta property="article:section" content={category} />}
       {isBlogPost && publishDate && <meta property="article:published_time" content={publishDate} />}
       {isBlogPost && modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
-      {isBlogPost && <meta property="article:publisher" content="https://kaweesachildrensministry.org" />}
+      {isBlogPost && <meta property="article:publisher" content="https://goodhopeministries.netlify.app" />}
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
