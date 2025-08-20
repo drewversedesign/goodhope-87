@@ -1,0 +1,10 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://kaweesachildrensministry.org/sitemap.xml
+
+# Sitemap location
+Sitemap: https://wrlds.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 10
