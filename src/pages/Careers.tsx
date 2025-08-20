@@ -180,9 +180,9 @@ const Careers = () => {
                     <h3 className="text-xl font-bold text-gray-900">Grace Nambi</h3>
                     <p className="text-gray-600 mb-4">HR & Operations Manager</p>
                     <div className="flex flex-col space-y-3">
-                      <a href="mailto:hr@kaweesaministry.org" className="flex items-center text-gray-700 hover:text-orange-600">
+                      <a href="mailto:goodhopeministries113@gmail.com" className="flex items-center text-gray-700 hover:text-orange-600">
                         <Mail className="w-5 h-5 mr-2" />
-                        hr@kaweesaministry.org
+                        goodhopeministries113@gmail.com
                       </a>
                        <a href="tel:+256790281993" className="flex items-center text-gray-700 hover:text-orange-600">
                          <Phone className="w-5 h-5 mr-2" />

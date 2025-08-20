@@ -92,7 +92,7 @@ const Footer = () => {
                   className="flex items-center hover:text-orange-400 transition-colors"
                 >
                   <Mail className="w-5 h-5 mr-3 text-orange-400" />
-                  <span>info@kaweesaministry.org</span>
+                  <span>goodhopeministries113@gmail.com</span>
                 </button>
                 <button 
                   onClick={() => redirectToWhatsApp("general")}

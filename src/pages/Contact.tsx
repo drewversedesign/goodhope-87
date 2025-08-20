@@ -25,7 +25,7 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["info@kaweesaministry.org", "programs@kaweesaministry.org"],
+      details: ["goodhopeministries113@gmail.com"],
       color: "bg-green-100 text-green-600",
       onClick: () => redirectToWhatsApp("general")
     },
@@ -142,7 +142,7 @@ const Contact = () => {
                       <Mail className="w-5 h-5 text-blue-600 mr-3" />
                       <div className="text-left">
                         <h4 className="font-semibold text-blue-900">General Inquiries</h4>
-                        <p className="text-blue-700 text-sm">info@kaweesaministry.org</p>
+                        <p className="text-blue-700 text-sm">goodhopeministries113@gmail.com</p>
                       </div>
                     </button>
                     <button 

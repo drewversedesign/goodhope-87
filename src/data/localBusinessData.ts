@@ -9,7 +9,7 @@ export const createLocalBusinessStructuredData = () => ({
   image: 'https://kaweesachildrensministry.org/social-share-image.jpg',
   logo: 'https://kaweesachildrensministry.org/social-share-image.jpg',
   telephone: '+256-XXX-XXXXXX',
-  email: 'info@kaweesachildrensministry.org',
+  email: 'goodhopeministries113@gmail.com',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Kampala Central',

@@ -54,7 +54,7 @@ const ContactInfo = () => {
                   className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
                 >
                   <Mail className="w-5 h-5 mr-2" />
-                  info@kaweesaministry.org
+                  goodhopeministries113@gmail.com
                 </button>
               </div>
             </div>

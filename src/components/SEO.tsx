@@ -124,7 +124,7 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="target" content="all" />
       <meta name="audience" content="all" />
       <meta name="copyright" content="Good Hope Ministries" />
-      <meta name="reply-to" content="info@kaweesachildrensministry.org" />
+      <meta name="reply-to" content="goodhopeministries113@gmail.com" />
       <meta name="owner" content="Good Hope Ministries" />
       <meta name="classification" content="Non-Profit Organization" />
       <meta name="category" content="Charity, Education, Healthcare, Community Development" />

@@ -195,7 +195,7 @@ const About = () => {
                   </div>
                   <div className="bg-green-50 rounded-xl p-6 border border-green-200 text-center">
                     <h4 className="font-bold text-green-900 mb-2">Email</h4>
-                    <p className="text-green-800">info@kaweesaministry.org</p>
+                    <p className="text-green-800">goodhopeministries113@gmail.com</p>
                   </div>
                   <div className="bg-orange-50 rounded-xl p-6 border border-orange-200 text-center">
                     <h4 className="font-bold text-orange-900 mb-2">Phone</h4>

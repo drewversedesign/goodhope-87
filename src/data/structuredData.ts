@@ -13,7 +13,7 @@ export const createOrganizationStructuredData = () => ({
     {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@kaweesachildrensministry.org',
+      email: 'goodhopeministries113@gmail.com',
       areaServed: 'UG',
       availableLanguage: ['English', 'Luganda']
     }
